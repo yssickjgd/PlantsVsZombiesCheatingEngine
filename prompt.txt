@@ -1,0 +1,370 @@
+WARNING: FAILED!
+THE INPUT IS ILLEGAL!
+
+
+#
+WARNING: FAILED!
+THE OPERATION IS ILLEGAL!
+
+
+#
+PROMPT: SUCCESS
+
+
+#
+Engine/
+
+Please input the number to choose what you want to change, and input -1 to exit.
+
+ 1. Money
+ 2. Flags and success of Adventure
+ 3. Flags and success of Mini-games
+ 4. Flags and success of Puzzle
+ 5. Flags and success of Survival
+ 6. Height of the Tree of Wisdom
+ 7. Dave`s shop
+ 8. Zen Garden
+
+
+#
+Engine/Money/
+
+Please input the number of money that you want to have (0<=int<=9 999 990), and input -1 to exit.
+
+
+#
+Engine/Flags and success of Adventure/
+
+Please input the number to choose what you want to change, and input -1 to exit.
+
+
+ 1. Times of passing Adventure
+ 2. Current game level
+
+
+#
+Engine/Flags and success of Adventure/Times of passing Adventure/
+
+Please input the number of times of passing Adventure (0<=int<=2 147 483 647), and input -1 to exit.
+
+
+#
+Engine/Flags and success of Adventure/Current game level/
+
+Please input two numbers to change current level (1<=int<=5,1<=int<=10), and input -1 to exit.
+
+For example: <2,3> means the 3rd game level of 2nd map.
+
+
+#
+Engine/Flags and success of Mini-games/
+
+Please input two numbers (1<=int<=20,0 or 1), and input -1 to exit.
+
+For example, <2,1> means you have passed the 2nd game for 1 time.
+
+
+#
+Engine/Flags and success of Puzzle/
+
+Please input the type of game, and input -1 to exit. 
+
+ 1. Vasebreaker
+ 2. I, Zombie
+
+
+#
+Engine/Flags and success of Puzzle/Vasebreaker/
+
+Please input two numbers (0<=int<=10,0 or 1), and input -1 to exit.
+
+For endless, unusually, the second number you input means the highest score (0<=int<=2 147 483 647).
+
+For example, <2,1> means you have passed the 2nd game for 1 time.
+
+
+#
+Engine/Flags and success of Puzzle/I, Zombie/
+
+Please input two numbers (0<=int<=10,0 or 1), and input -1 to exit.
+
+For endless, unusually, the second number you input means the highest score (0<=int<=2 147 483 647).
+
+For example, <2,1> means you have passed the 2nd game for 1 time.
+
+
+#
+Engine/Flags and success of Survival/
+
+Please input the type of game, and input -1 to exit. 
+
+ 1. Normal
+ 2. Hard
+ 3. Endless
+
+
+#
+Engine/Flags and success of Survival/Normal/
+
+Please input two numbers (0<=int<=5,0<=int<=5), and input -1 to exit.
+
+For example, <2,3> means the 3rd flag of 2nd map.
+
+
+#
+Engine/Flags and success of Survival/Hard/
+
+Please input two numbers (0<=int<=5,0<=int<=10), and input -1 to exit.
+
+For example, <2,3> means the 3rd flag of 2nd map.
+
+
+#
+Engine/Flags and success of Survival/Endless/
+
+Please input two numbers (0<=int<=5,0<=int<=10), and input -1 to exit.
+
+For example, <2,3> means the 3rd flag of 2nd map is your highest score.
+
+
+#
+Engine/Height of the Tree of Wisdom/
+
+Please input the number of height of the tree of wisdom that you want to have (0<=int<=2 147 483 647), and input -1 to exit.
+
+
+#
+Engine/Dave`s shop/
+
+Please input two numbers, and input -1 to exit.
+
+The 2nd number is boole (0 or 1) when the 1st number is 1-9,13,16-19,22-23,26,28.
+
+For example, <2,1> means you have bought Twin Sunflower.
+
+the 2nd number is boole (0 or 1) when the 1st number is 10-12.
+
+For example, <10,1> means you can buy Marigold Sprout I.
+
+The 2nd number is an integer (0<=int<=20) when the 1st number is 14-15,25,27.
+
+The 2nd number is boole (0 or 1) when the 1st number is 20.
+
+For example, <20,1> means your snail is awake.
+
+The 2nd number is an integer (0<=int<=4) when the 1st number is 21.
+
+The 2nd number is an integer (0<=int<=3) when the 1st number is 24.
+
+The 1st number is commodities.
+ 1. Gatling Pea
+ 2. Twin Sunflower
+ 3. Gloom-shroom
+ 4. Cattail
+ 5. Winter Melon
+ 6. Gold Magnet
+ 7. Spikerock
+ 8. Cob Cannon
+ 9. Imitater
+10. Marigold Sprout I
+11. Marigold Sprout II
+12. Marigold Sprout III
+13. Golden watering can
+14. Fertilizer
+15. Bug spray
+16. Phonograph
+17. Gardening glove
+18. Mushroom Garden
+19. Aquarium Garden
+20. Snail wake
+21. Seed slot
+22. Pool cleaners
+23. Roof cleaners
+24. Roof rake
+25. Chocolate
+26. The Tree of Wisdom
+27. Tree food
+28. Wall-nut first aid
+
+
+#
+Engine/Zen Garden/
+
+Please input a number to choose what you want to change, and input -1 to exit.
+
+ 1. See your garden
+ 2. Clear your garden
+ 3. Insert a new flower
+ 4. Delete an owned flower
+ 5. Set an owned flower
+ 6. Reload ordinary garden
+
+
+#
+Engine/Zen Garden/See your gardern/
+
+Here is your garden, and input -1 to exit.
+
+
+#
+Engine/Zen Garden/Clear your garden/
+
+Are you sure of it? Input 1 to confirm, and input -1 to exit.
+
+
+#
+Engine/Zen Garden/Insert a new flower/
+
+Please input four numbers to tell me its location and name, and input -1 to exit.
+
+The 1st number is garden.
+ 1. Greenhouse
+ 2. Mushroom Garden
+ 3. Aquarium
+
+The 2nd and 3rd number is its precise location (0<=int<=7,0<=int<=3).
+
+And for Mushroom Garden or Aquarium, the 3rd number is of no use, so you can input any numbers.
+
+The 4th number is its name.
+ 1. Peashooter
+ 2. Sunflower
+ 3. Cherry Bomb
+ 4. Wall-nut
+ 5. Potato Mine
+ 6. Snow Pea
+ 7. Chomper
+ 8. Repeater
+ 9. Puff-shroom
+10. Sun-shroom
+11. Fume-shroom
+12. Grave Buster
+13. Hypno-shroom
+14. Scaredy-shroom
+15. Ice-shroom
+16. Doom-shroom
+17. Lily Pad
+18. Squash
+19. Threepeater
+20. Tangle Kelp
+21. Jalapeno
+22. Spikeweed
+23. Torchwood
+24. Tall-nut
+25. Sea-shroom
+26. Plantern
+27. Cactus
+28. Blover
+29. Split Pea
+30. Starfruit
+31. Pumpkin
+32. Magnet-shroom
+33. Cabbage-pult
+34. Flower Pot
+35. Kernel-pult
+36. Coffee Bean
+37. Garlic
+38. Umbrella Leaf
+39. Marigold
+40. Melon-pult
+41. Gatling Pea
+42. Twin Sunflower
+43. Gloom-shroom
+44. Cattail
+45. Winter Melon
+46. Gold Magnet
+47. Spikerock
+48. Cob Cannon
+49. Imitater
+50. Explode-o-nut
+51. Gaint Wall-nut
+52. Sprout
+
+For example, <2,3,0,1> means a peashooter in the 3rd place of the Mushroom Garden.
+
+
+#
+Engine/Zen Garden/Delete an owned flower/
+
+Please input an id number to delete the flower (0<=int<=47), and input -1 to exit.
+
+
+#
+Engine/Zen Garden/Delete an owned flower/confirm/
+
+Are you sure of it? Input 1 to confirm, and input -1 to exit.
+
+
+#
+Engine/Engine/Zen Garden/Set an owned flower/
+
+Please input two numbers to set your flower, and input -1 to exit.
+
+The 1st number is the flower`s id (0<=int<=47).
+
+The 2nd number is the flower`s new name.
+ 1. Peashooter
+ 2. Sunflower
+ 3. Cherry Bomb
+ 4. Wall-nut
+ 5. Potato Mine
+ 6. Snow Pea
+ 7. Chomper
+ 8. Repeater
+ 9. Puff-shroom
+10. Sun-shroom
+11. Fume-shroom
+12. Grave Buster
+13. Hypno-shroom
+14. Scaredy-shroom
+15. Ice-shroom
+16. Doom-shroom
+17. Lily Pad
+18. Squash
+19. Threepeater
+20. Tangle Kelp
+21. Jalapeno
+22. Spikeweed
+23. Torchwood
+24. Tall-nut
+25. Sea-shroom
+26. Plantern
+27. Cactus
+28. Blover
+29. Split Pea
+30. Starfruit
+31. Pumpkin
+32. Magnet-shroom
+33. Cabbage-pult
+34. Flower Pot
+35. Kernel-pult
+36. Coffee Bean
+37. Garlic
+38. Umbrella Leaf
+39. Marigold
+40. Melon-pult
+41. Gatling Pea
+42. Twin Sunflower
+43. Gloom-shroom
+44. Cattail
+45. Winter Melon
+46. Gold Magnet
+47. Spikerock
+48. Cob Cannon
+49. Imitater
+50. Explode-o-nut
+51. Gaint Wall-nut
+52. Sprout
+
+The 3rd number is the flower`s size (0<=int<=3).
+
+For example, <2,3,3> means changing the 2nd flower to Cherry Bomb with the largest size.
+
+
+#
+Engine/Zen Garden/Reload ordinary garden/
+
+Are you sure of it? Input 1 to confirm, and input -1 to exit.
+
+
+#
